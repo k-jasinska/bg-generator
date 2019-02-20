@@ -1,3 +1,8 @@
+ var _ = require('lodash');
+
+ var arr=[1,2,3,4,5];
+ console.log('answer:', _.without(arr,3));
+
 var x=document.getElementById("color1");
 var y=document.getElementById("color2");
 var css=document.querySelector("h3");

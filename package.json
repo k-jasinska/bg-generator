@@ -1,0 +1,22 @@
+{
+  "name": "bg-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-jasinska/bg-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-jasinska/bg-generator/issues"
+  },
+  "homepage": "https://github.com/k-jasinska/bg-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
